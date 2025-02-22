@@ -1,0 +1,28 @@
+.tasks{
+    display: flex;
+    align-items: center;
+    margin: 0.75rem 0; /* my-3 */
+    gap: 0.5rem; /* gap-2 */
+}
+.check{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    cursor: pointer;
+}
+.check img{
+    width: 1.75rem; /* w-7 */
+}
+.check p{
+    color: #64748b; /* text-slate-700 */
+    margin-left: 1rem; /* ml-4 */
+    font-size: 17px;
+}
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+.tasks img{
+    width: 0.875rem; /* w-3.5 */
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+.todo{
+    background-color: white;
+    align-self: center;
+    width: 91.6667%; /* w-11/12 */
+    max-width: 28rem; /* max-w-md */
+    display: flex;
+    flex-direction: column;
+    padding: 1.75rem; /* p-7 */
+    min-height: 550px;
+    border-radius: 0.75rem; /* rounded-xl */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.todoone{
+    background-color: #292524; /* bg-stone-900 */
+    display: flex;
+    padding: 1rem 0; /* py-4 */
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.count{
+    display: flex;
+    align-items: center;
+    margin-top: 1.75rem; /* mt-7 */
+    gap: 0.5rem; /* gap-2 */
+}
+.count h1{
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: 600; /* font-semibold */
+}
+.count img{
+    width: 2rem;
+}
+.feild{
+    display: flex;
+    align-items: center;
+    margin: 1.75rem 0; /* my-7 */
+    background-color: #e5e7eb; /* bg-gray-200 */
+    border-radius: 9999px; /* rounded-full */
+}
+.feild input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    flex: 1;
+    height: 3.5rem; /* h-14 */
+    padding-left: 1.5rem; /* pl-6 */
+    padding-right: 0.5rem; /* pr-2 */
+    color: #475569; /* text-slate-600 */
+}
+.feild button{
+    border: none;
+    border-radius: 9999px;
+    background-color: #ea580c; /* bg-orange-600 */
+    width: 8rem; /* w-32 */
+    height: 3.5rem; /* h-14 */
+    color: white;
+    font-size: 1.125rem; /* text-lg */
+    font-weight: 500; /* font-medium */
+    cursor: pointer;
+}
